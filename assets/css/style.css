@@ -1,0 +1,8 @@
+body{
+	text-align: center;
+}
+
+#displayWord{
+	font-size: 35px;
+	letter-spacing: 8px;
+}
