@@ -1,8 +1,30 @@
 body{
 	text-align: center;
+	background-color: #022b52;
+	color: white;
 }
-
+h1{
+	background-color: #a21727;
+}
 #displayWord{
 	font-size: 35px;
 	letter-spacing: 8px;
+	background-color: #a21727;
+}
+.test{
+	background-color: #f8eb00; /*yellow*/
+}
+#gameResult{
+	background-color: #a21727;
+	min-height: 70px;0
+}
+#header{
+	background-color: #a21727;
+}
+.line{
+	border-width: 7px;
+	border-color: #f8eb00;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	width:100%;
 }

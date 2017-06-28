@@ -12,20 +12,35 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
   <body>
-	<h1>Hangman Game</h1>
-
-	<h2 id="gameResult"></h2>
-	<p>Press any key to get started!</p>
-	<p id="winCount">Win Count:</p>
-	<p>Current Word</p>
-	<p id="displayWord">--------</p>
-	<p>Guesses Remaining </p>
-	<h3 id="guessCount"></h3>
-	<p>Letters Already Guessed </p>
-	<h3 id="lettersGuessed"></h3>
-	<br>
-
-
+  	<div class="container-fluid">
+  		<div class="row" id="header">
+  			<div class="col-sm-12">
+		  		<div class="row">
+		  			<div class="col-sm-12">
+		 		 		<h1>Hangman Game</h1>
+		 		 	</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div class="col-sm-8">
+						<h2 id="gameResult"></h2>
+					</div>
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<hr class="line">
+		<hr class="line">
+		<hr class="line">
+		<p>Win Count: <span id="winCount">0</span></p>
+		<p>Current Word</p>
+		<p id="displayWord">[Press any key to begin]</p>
+		<p>Guesses Remaining <span id="guessCount"></span></p>
+		<p>Letters Already Guessed </p>
+		<h3 id="lettersGuessed"></h3>
+		<br>
+	
 	<!-- Things to Study for the homework!
 
 	Document. (document dot)

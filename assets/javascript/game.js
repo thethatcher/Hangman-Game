@@ -30,7 +30,7 @@ var game ={
 	displayWord: "",
 	guessCount: 6,
 	lettersGuessed: [],
-	wordList: ["soccer","coach","player","goal","pitch","penalty","goalie"],
+	wordList: ["mallory","ryan", "linus", "family"],
 
 	guessChar: function(char){
 		console.log("guess: " + char + " displayWord: " + this.displayWord);
@@ -44,7 +44,6 @@ var game ={
 		this.setHtml(this.displayWordHtml,this.displayWord);
 		this.setHtml(this.guessCountHtml,this.guessCount);
 		this.setHtml(this.lettersGuessedHtml,this.lettersGuessed);
-
 	},
 	setHtml: function(htmlElement,string){
 		console.log("Updating HTML element" + htmlElement);
