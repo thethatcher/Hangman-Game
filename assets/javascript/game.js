@@ -30,7 +30,7 @@ var game ={
 	displayWord: "",
 	guessCount: 6,
 	lettersGuessed: [],
-	wordList: ["mallory","ryan", "linus", "family"],
+	wordList: ["soccer","goal","coach","pitch","match","goalie","striker","fullback","centerback","midfield","win","loss","draw","celebrate","penalty","stadium","grass","kick","pass","offside"],
 
 	guessChar: function(char){
 		console.log("guess: " + char + " displayWord: " + this.displayWord);
